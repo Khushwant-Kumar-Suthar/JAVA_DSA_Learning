@@ -1,0 +1,24 @@
+package JAVA_DSA_Learning.StringOp;
+import java.util.*;
+public class StringCompression {
+    public static String comperssion(String str){
+        StringBuilder sb = new StringBuilder("");
+        for(int i =0;i<str.length();i++){
+            Integer count = 1;
+            while (i<str.length()-1 && str.charAt(i)==str.charAt(i+1)){
+                count++;
+                i++;
+            }
+            sb.append(str.charAt(i));
+            if(count>1){
+                sb.append(count.toString());
+            }
+        }
+        return sb.toString();
+    }
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        String str = in.nextLine();
+        System.out.println("Comperse String is: "+comperssion(str));
+    }
+}
