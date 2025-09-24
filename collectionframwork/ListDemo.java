@@ -22,5 +22,12 @@ public class ListDemo {
         for(int num : al1){
             System.out.println(num);
         }
+
+        // using iterator
+        Iterator<Integer> it = al1.iterator();
+        System.out.println("Using Iterator");
+        while(it.hasNext()) {
+            System.out.println(it.next());
+        }
     }
 }
