@@ -83,11 +83,4 @@ JAVA_DSA_Learning/
 
 ---
 
-👨‍💻 **Happy Coding & Keep Practicing!**
 
-```
-
-Now it’s **one markdown document** with all sections formatted correctly.  
-
-Do you also want me to add a **"Contributing" and "License" section** at the end so your repo looks professional like open-source projects?
-```
