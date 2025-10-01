@@ -41,14 +41,14 @@ Clone the repository:
 ```bash
 git clone https://github.com/Khushwant-Kumar-Suthar/JAVA_DSA_Learning.git
 cd JAVA_DSA_Learning
-
-## Compile & Run
-# Compile
+---
+### Compile & Run
+1.Compile
 javac src/problems/ArrayExample.java
 
-# Run
+2.Run
 java src.problems.ArrayExample
-
+---
 ## Project Structure
 JAVA_DSA_Learning/
 ├── src/                # Main source code
@@ -58,6 +58,7 @@ JAVA_DSA_Learning/
 ├── examples/           # Example usage files (if present)
 ├── README.md           # Project documentation
 └── LICENSE             # License file (if present)
+---
 ## Tips for Learners
 💡 Tips for Learners
 
