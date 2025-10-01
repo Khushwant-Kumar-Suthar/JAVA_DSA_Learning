@@ -16,13 +16,6 @@ A collection of Java implementations for Data Structures and Algorithms (DSA) de
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Compile & Run](#compile--run)
-- [Project Structure](#-project-structure)
-- [Usage / Examples](#-usage--examples)
-- [How to Add New Content](#-how-to-add-new-content)
-- [Testing](#-testing)
-- [Contribution Guidelines](#-contribution-guidelines)
-- [License](#-license)
-- [Maintainer](#-maintainer)
 - [Tips for Learners](#-tips-for-learners)
 
 ---
@@ -48,3 +41,36 @@ Clone the repository:
 ```bash
 git clone https://github.com/Khushwant-Kumar-Suthar/JAVA_DSA_Learning.git
 cd JAVA_DSA_Learning
+
+### Compile & Run
+# Compile
+javac src/problems/ArrayExample.java
+
+# Run
+java src.problems.ArrayExample
+
+### Project Structure
+JAVA_DSA_Learning/
+├── src/                # Main source code
+│   ├── problems/       # Example DSA problems
+│   ├── datastructures/ # Implementations of core data structures
+│   └── algorithms/     # Algorithmic solutions
+├── examples/           # Example usage files (if present)
+├── README.md           # Project documentation
+└── LICENSE             # License file (if present)
+### Tips for Learners
+<ul><li>
+Start with arrays and strings, then move on to linked lists, stacks, and queues.
+</li>
+<li>
+Practice sorting and searching algorithms to build strong foundations.
+</li>
+<li>
+Gradually move to trees, graphs, and dynamic programming.
+</li>
+<li>
+Try to solve problems first by hand before coding.
+</li>
+<li>
+Use this repository to run, modify, and learn from the examples.</li>
+</ul>
