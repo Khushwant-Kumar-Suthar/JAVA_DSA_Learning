@@ -42,14 +42,14 @@ Clone the repository:
 git clone https://github.com/Khushwant-Kumar-Suthar/JAVA_DSA_Learning.git
 cd JAVA_DSA_Learning
 
-### Compile & Run
+## Compile & Run
 # Compile
 javac src/problems/ArrayExample.java
 
 # Run
 java src.problems.ArrayExample
 
-### Project Structure
+## Project Structure
 JAVA_DSA_Learning/
 ├── src/                # Main source code
 │   ├── problems/       # Example DSA problems
@@ -58,19 +58,15 @@ JAVA_DSA_Learning/
 ├── examples/           # Example usage files (if present)
 ├── README.md           # Project documentation
 └── LICENSE             # License file (if present)
-### Tips for Learners
-<ul><li>
-Start with arrays and strings, then move on to linked lists, stacks, and queues.
-</li>
-<li>
-Practice sorting and searching algorithms to build strong foundations.
-</li>
-<li>
-Gradually move to trees, graphs, and dynamic programming.
-</li>
-<li>
-Try to solve problems first by hand before coding.
-</li>
-<li>
-Use this repository to run, modify, and learn from the examples.</li>
-</ul>
+## Tips for Learners
+💡 Tips for Learners
+
+1.Start with arrays and strings, then move on to linked lists, stacks, and queues.
+
+2.Practice sorting and searching algorithms to build strong foundations.
+
+3.Gradually move to trees, graphs, and dynamic programming.
+
+4.Try to solve problems first by hand before coding.
+
+5.Use this repository to run, modify, and learn from the examples.
